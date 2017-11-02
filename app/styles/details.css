@@ -6,9 +6,8 @@ a {
     text-decoration: none;
 }
 main > .details-container {
-	width: 95%;
-	max-width: 1280px;
-	margin:auto;
+	width: 85%;
+	margin :auto;
 	border: 1px solid rgb(189, 189, 189);
 	border-bottom-left-radius: 15px;
 	overflow: hidden;

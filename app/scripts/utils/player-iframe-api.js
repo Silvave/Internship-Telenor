@@ -53,14 +53,16 @@ define(() => {
       function setTimeInterval() {
           let intervalMilliseconds = 1000
 
-          timeInterval = setInterval(function() {
+          function checkYTPlayerPosition() {
               let videoCurrentTimeSeconds = Math.trunc(player.getCurrentTime())
               let currentClipInfo = videoData.questionsInfo[videoData.currentQuestionId]
 
               if (videoCurrentTimeSeconds >= currentClipInfo.end) {
                   changeToNextQuestion(videoData.currentQuestionId + 1)
               }
-          }, intervalMilliseconds)
+          }
+
+          timeInterval = setInterval(checkYTPlayerPosition, intervalMilliseconds)
       }
 
       function clearTimeInterval() {

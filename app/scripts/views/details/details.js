@@ -1,10 +1,10 @@
 const viewDetailsDependancies = [
     './templates/header-details-intern-info.js',
     './templates/aside-details-questions.js',
-    './templates/section-details-question-info.js'
+    // './templates/section-details-question-info.js'
 ]
 
-define(viewDetailsDependancies, (internInfoTemplate, asidebarTemplate, questionInfoTemplate) => {
+define(viewDetailsDependancies, (internInfoTemplate, asidebarTemplate) => {
     return (dataObj) => {
         return `
             <div class="details-container">
@@ -18,9 +18,6 @@ define(viewDetailsDependancies, (internInfoTemplate, asidebarTemplate, questionI
                                      alt="Теленор image" />
                             </div>
                             <div id="ytplayer"></div>
-                        </div>
-                        <div class="description-wrapper">
-                            ${questionInfoTemplate(dataObj.currentQuestionText)}
                         </div>
                     </section>
                     ${asidebarTemplate(dataObj.allInternQuestions)}

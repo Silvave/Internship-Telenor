@@ -29,8 +29,12 @@ body {
         .logo {
             height: 130px;
         }
-    main > .list-container {
+    .static-content {
         width: 90%;
+        margin: auto;
+    }
+    main > .list-container {
+        width: 80%;
         margin: auto;
     }
         .hub-image-wrapper {
@@ -51,9 +55,6 @@ body {
             .info-text-wrapper {
                 width: 80%;
             }
-                .info-title {
-                    font-weight: bold;
-                }
                 .btn-wrapper {
                     display: flex;
                 }
@@ -276,9 +277,6 @@ body {
     }
     .card-front .intern-image-wrapper img {
         width: 110px;
-    }
-    .info-text-wrapper .info-title {
-        font-size: 16px;
     }
     .card-back {
         padding: 15px 10px 0 15px;
