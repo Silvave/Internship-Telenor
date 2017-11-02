@@ -2,7 +2,7 @@
 
 This is a small SPA done for Telenor's internship program.
 
-Link to app's github pages demo - [**Here**](https://softuni.github.io/Internship-Telenor/app/)
+Link to app's github pages demo - [**Here**](https://silvave.github.io/Internship-Telenor/app/)
 
 Link to Telenor's implemented version - [**Here**](http://www.telenor.bg/careers/youth-vacancies?=list)
 
